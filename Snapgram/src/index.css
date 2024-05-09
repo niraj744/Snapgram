@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  list-style-type: none;
+  color: white;
+}
+
+:root {
+  --tw-text-opacity: 1;
+  --color: rgb(120 120 163 / var(--tw-text-opacity));
+  --tw-bg-opacity: 1;
+  --background-color: rgb(31 31 34 / var(--tw-bg-opacity));
+  --linkColor: rgb(135 126 255 / var(--tw-bg-opacity));
+  --navigation-color: rgb(9 9 10 / var(--tw-bg-opacity));
+
+  --background-image: linear-gradient(to top, var(--tw-gradient-stops));
+  --tw-gradient-from: #101012 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(16 16 18 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--linkColor);
+}
+
+body {
+  background: #000;
+}
+
+html {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.error {
+  color: #e63946;
+}

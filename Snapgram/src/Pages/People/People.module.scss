@@ -1,0 +1,50 @@
+.people {
+  width: 100%;
+  padding: 4rem;
+  height: 100vh;
+  overflow-y: scroll;
+  .creator {
+    width: 100%;
+
+    .heading {
+      text-transform: capitalize;
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+
+    .creatorsul {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 1rem;
+    }
+
+    .creatorsli {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 1124px) {
+  .people {
+    .creator {
+      .creatorsul {
+        grid-template-columns: auto auto auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .people {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .people {
+    margin: 4rem 0rem;
+    padding: 1rem;
+  }
+}

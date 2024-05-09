@@ -1,0 +1,26 @@
+.loader {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  text-transform: capitalize;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+
+  h1 {
+    font-weight: 500;
+    animation: loader 1s alternate-reverse infinite;
+  }
+}
+
+@keyframes loader {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
